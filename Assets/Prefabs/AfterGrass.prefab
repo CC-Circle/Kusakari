@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6975903607536448097}
   - component: {fileID: 8777919845342602140}
   - component: {fileID: 1418981702128653370}
-  - component: {fileID: 5892042179035674419}
+  - component: {fileID: 8146975636141294185}
   m_Layer: 0
   m_Name: AfterGrass
   m_TagString: AfterGrass
@@ -84,7 +84,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &5892042179035674419
+--- !u!114 &8146975636141294185
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -96,5 +96,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd44dddcec87b4366b1226b3685c0183, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifetime: 5
+  lifetime: 10
   spawnPrefab: {fileID: 2527857454293643736, guid: b43bad4768d95495482cc752d8dd43d6, type: 3}
