@@ -1264,6 +1264,7 @@ GameObject:
   - component: {fileID: 345832275}
   - component: {fileID: 345832276}
   - component: {fileID: 345832277}
+  - component: {fileID: 345832278}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1314,6 +1315,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockParent: {fileID: 1573774492}
   blockPrefab_Mogura: {fileID: 8905744113825350624, guid: 77d3fccc9002042859c4e317b09260bf, type: 3}
+--- !u!114 &345832278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345832273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d19f5589a5bc9412da68bb2c3dc0eb8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &447625068
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4516,7 +4529,7 @@ Camera:
   m_Depth: -2
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 200
+    m_Bits: 1224
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: 34af762f97b2f45d88d5ce78ea7df677, type: 2}
   m_TargetDisplay: 0
@@ -5963,8 +5976,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712682415}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 37.21939, y: 37.213776, z: -45.9361}
+  m_LocalRotation: {x: -0, y: -0.99930257, z: -0.037341274, w: 0}
+  m_LocalPosition: {x: -37.779392, y: -14.220514, z: 286.67426}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5972,7 +5985,7 @@ Transform:
   - {fileID: 2001133342}
   - {fileID: 580846160}
   - {fileID: 166070830}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1753762141}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1741467022
 GameObject:
@@ -6114,6 +6127,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1712682416}
   - {fileID: 1033765944}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -4.28, y: 180, z: 0}
@@ -8473,4 +8487,3 @@ SceneRoots:
   - {fileID: 2034534250}
   - {fileID: 1481916871}
   - {fileID: 1753762141}
-  - {fileID: 1712682416}
