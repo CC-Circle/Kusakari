@@ -6,7 +6,7 @@ public class SerialReceive : MonoBehaviour
 {
     public SerialHandler serialHandler;
 
-    private float accX, accY, accZ; // 加速度
+    public float accX, accY, accZ; // 加速度
     public float gyroX, gyroY, gyroZ; // 角速度(視点変更で使用)
     public float pitch, roll, yaw; // 磁気
     private float temp; // 温度
